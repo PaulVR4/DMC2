@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'ifc_railroadbold';
+    src: url('font/ifc_railroad_2-webfont.woff2') format('woff2'),
+         url('font/ifc_railroad_2-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+  background-color: black;
+}
+h1, h2, h5{
+  font-family: ifc_railroadbold, sans-serif;
+  color: red;
+  text-align: center;
+
+}
+h1 {
+  font-size: 70px;
+  text-shadow: -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+     1px 1px 0 white;
+}
+h2 {
+  font-size: 20px;
+  padding: 5px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+}
+p {
+  color: white;
+}
+.container-fluid{
+  background-color: black;
+}
+.card-body {
+background-color: black;
+}
+.text {
+  color: red;
+  display: inline;
+  font-family: ifc_railroadbold, sans-serif;
+}
