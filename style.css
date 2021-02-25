@@ -5,8 +5,13 @@
     font-weight: normal;
     font-style: normal;
 }
+html {
+  display: grid;
+  justify-content: center;
+}
 body {
   background-color: black;
+  max-width: 1200px;
 }
 h1, h2, h5{
   font-family: ifc_railroadbold, sans-serif;
@@ -25,18 +30,21 @@ h2 {
   font-size: 20px;
   padding: 5px;
 }
+h5 {
+  font-size: 30px;
+}
 a {
   color: white;
   text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
 }
 a:hover {
   color: red;
 }
 p {
   color: white;
-}
-.container-fluid{
-  background-color: black;
+  text-align: center;
 }
 .card-body {
 background-color: black;
